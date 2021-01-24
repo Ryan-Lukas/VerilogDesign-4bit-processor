@@ -228,23 +228,6 @@ always@(*)begin
 								end
 					default : NS = S14;
 					endcase
-//				if(Opcode[5:4] == 2'b00)begin
-//					Registers_out = 4'b0001;
-//				end
-//				else if(Opcode[5:4] == 2'b01)begin
-//					Registers_out = 4'b0010;
-//				end
-//				else if(Opcode[5:4] == 2'b10)begin
-//					Registers_out = 4'b0100;
-//				end
-//				else if(Opcode[5:4] == 2'b11)begin
-//					Registers_out = 4'b1000;
-//				end
-//				else NS = S14;
-//				
-//				Rx_in_tri = 1'b1;
-//				Rx_enable = 1'b1;
-//				NS = S15;
 			end
 			
 			S15:begin
@@ -283,23 +266,7 @@ always@(*)begin
 								end
 					default : NS = S16;
 					endcase
-//				if(Opcode[3:2] == 2'b00)begin
-//					Registers_out = 4'b0001;
-//				end
-//				else if(Opcode[3:2] == 2'b01)begin
-//					Registers_out = 4'b0010;
-//				end
-//				else if(Opcode[3:2] == 2'b10)begin
-//					Registers_out = 4'b0100;
-//				end
-//				else if(Opcode[3:2] == 2'b11)begin
-//					Registers_out = 4'b1000;
-//				end
-//				else NS = S16;
-//				
-//				Ry_in_tri = 1'b1;
-//				Ry_enable = 1'b1;
-//				NS = S17;			
+				
 			end
 			
 			S17:begin
@@ -359,9 +326,3 @@ always@(*)begin
 end
 
 endmodule
-
-
-
-
-
-
