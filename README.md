@@ -10,7 +10,7 @@ ECE 3700 - Digital System Design - Spring 2019
 Background
 ------------
 
-I designed and implemented a 4 bit processor that has a total of 4 registers, ALU, PC Counter, ROM, and an ALU. The given operations and the instruction encoding is below.
+I designed and implemented a 4 bit processor that has a total of 4 registers, ALU, PC Counter, ROM, and an ALU. The given operations and the instruction encoding is below. To load or store bits within a register, select the register by having the encoding Rx or Ry bits {00,..,11}.
 
 Possible Operations
 ------------
